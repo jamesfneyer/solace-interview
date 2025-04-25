@@ -10,11 +10,9 @@ Install dependencies
 npm i
 ```
 
-Run the development server:
+See the official Docker documentation for installation information:
 
-```bash
-npm run dev
-```
+ * [Install Docker Compose](https://docs.docker.com/compose/install/)
 
 ## Database set up
 
@@ -28,7 +26,7 @@ docker compose up -d
 
 2. Create a `solaceassignment` database.
 
-3. Push migration to the database
+3. Run migrations
 
 ```bash
 npx drizzle-kit push
